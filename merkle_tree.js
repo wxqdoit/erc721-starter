@@ -1,7 +1,7 @@
 const {MerkleTree} = require('merkletreejs');
 const keccak256  = require('keccak256');
 
-//填写百名点地址
+//填写白名单地址
 let wl = [];
 
 let leafNodes = wl.map((addr) => keccak256(addr));
